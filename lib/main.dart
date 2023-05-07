@@ -137,43 +137,43 @@ class _BeersPage extends State<BeersPage> {
               ),
               // THIS IS THE GOOD CODE
               //
-              // body: ListView.separated(
-              //   key: _filter_active ? PageStorageKey("filtered") : PageStorageKey("unfiltered"),
-              //   itemCount: viewing_list.length,
-              //   //padding: const EdgeInsets.all(16),
-              //   separatorBuilder: (BuildContext context, int index) => const Divider(),
-              //   itemBuilder: (BuildContext context, int index) {
-              //     //return _buildBeerRow(index);
-              //     return viewing_list[index];
-              //   },
-              // ),
+              body: ListView.separated(
+                key: _filter_active ? PageStorageKey("filtered") : PageStorageKey("unfiltered"),
+                itemCount: viewing_list.length,
+                //padding: const EdgeInsets.all(16),
+                separatorBuilder: (BuildContext context, int index) => const Divider(),
+                itemBuilder: (BuildContext context, int index) {
+                  //return _buildBeerRow(index);
+                  return viewing_list[index];
+                },
+              ),
               //
               // THIS IS THE TESTING CODE
-              body: Column(children: [Expanded(
-                child: ListView.separated(
-                  key: _filter_active ? PageStorageKey("filtered") : PageStorageKey("unfiltered"),
-                  itemCount: _all_beers.length,
-                  //shrinkWrap: true,
-                  separatorBuilder: (BuildContext context, int index) => const Divider(),
-                  itemBuilder: (BuildContext context, int section_index) {
-                    //return Text("hello");
-                    return Column(
-                      children: [
-                        Text("parent"),
-                        ListView.separated(
-                          itemCount: 20,
-                          physics: ClampingScrollPhysics(),
-                          shrinkWrap: true,
-                          separatorBuilder: (BuildContext context, int index) => Divider(),
-                          itemBuilder: (BuildContext context, int beer_index) {
-                            return Text("Hello Beer ${beer_index}");
-                          },
-                        ),
-                      ],
-                    );
-                  },
-                ),
-              ),],),
+              // body: Column(children: [Expanded(
+              //   child: ListView.separated(
+              //     key: _filter_active ? PageStorageKey("filtered") : PageStorageKey("unfiltered"),
+              //     itemCount: _all_beers.length,
+              //     //shrinkWrap: true,
+              //     separatorBuilder: (BuildContext context, int index) => const Divider(),
+              //     itemBuilder: (BuildContext context, int section_index) {
+              //       //return Text("hello");
+              //       return Column(
+              //         children: [
+              //           Text("parent"),
+              //           ListView.separated(
+              //             itemCount: 20,
+              //             physics: ClampingScrollPhysics(),
+              //             shrinkWrap: true,
+              //             separatorBuilder: (BuildContext context, int index) => Divider(),
+              //             itemBuilder: (BuildContext context, int beer_index) {
+              //               return Text("Hello Beer ${beer_index}");
+              //             },
+              //           ),
+              //         ],
+              //       );
+              //     },
+              //   ),
+              // ),],),
             );
           };
         };
