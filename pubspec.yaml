@@ -60,11 +60,6 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 
-flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/icon/beer_icon.png"
-
 # The following section is specific to Flutter packages.
 flutter:
   assets:
