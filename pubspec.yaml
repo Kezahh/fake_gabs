@@ -39,10 +39,7 @@ dependencies:
   dwds: ^16.0.1
 
 dev_dependencies:
-  flutter_launcher_icons:
-    git:
-      url: https://github.com/Davenchy/flutter_launcher_icons.git
-      ref: fixMinSdkParseFlutter2.8
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
   # hive_generator: ^[version]
@@ -59,6 +56,13 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/beer_icon.png"
+  web:
+    generate: true
 
 # The following section is specific to Flutter packages.
 flutter:
