@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "1aa4cd2ccf7fd52feb67347f4599999d",
+const RESOURCES = {"apple-touch-icon.png": "b5a5e3d3bb83454eb5777f4f6cd618ab",
+"assets/AssetManifest.bin": "1aa4cd2ccf7fd52feb67347f4599999d",
 "assets/AssetManifest.json": "a53e14d54e50fc2541aef4ad8adb8219",
 "assets/assets/beers.csv": "8bf6251eb0499c6e06749a082745c149",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -20,16 +21,19 @@ const RESOURCES = {"assets/AssetManifest.bin": "1aa4cd2ccf7fd52feb67347f4599999d
 "canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
 "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
 "canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
-"favicon.png": "8571fbc2a56b49ae07a7c0cfb894fa1b",
+"favicon-16x16.png": "d5bc3df8d69edb088206ad49bf0b8447",
+"favicon-32x32.png": "5c4432e14b53a536f5295c97d687ebda",
+"favicon.png": "9b4e9570dc1cc45f60678d07c4a1f7d5",
 "flutter.js": "6b515e434cea20006b3ef1726d2c8894",
-"icons/Icon-192.png": "dbbbc0914aab18e279e5fc8b2dbdbc90",
-"icons/Icon-512.png": "5ad49760465054661773f6631665e308",
-"icons/Icon-maskable-192.png": "dbbbc0914aab18e279e5fc8b2dbdbc90",
-"icons/Icon-maskable-512.png": "5ad49760465054661773f6631665e308",
-"index.html": "b52f5baeed1f48f5e64df86fbc07d9f2",
-"/": "b52f5baeed1f48f5e64df86fbc07d9f2",
+"icons/Icon-192.png": "a40cce8fc4c99e7b5dcbdbaceee355bf",
+"icons/Icon-512.png": "0b54640c35363b578f6aef436af18c47",
+"icons/Icon-maskable-192.png": "a40cce8fc4c99e7b5dcbdbaceee355bf",
+"icons/Icon-maskable-512.png": "0b54640c35363b578f6aef436af18c47",
+"index.html": "e50b8cad4227e2edcba873e4d183c01c",
+"/": "e50b8cad4227e2edcba873e4d183c01c",
 "main.dart.js": "dfe9f20581fd1bf60acc572af21207a1",
 "manifest.json": "ef572560545c296f8d81aa6892f31f3f",
+"site.webmanifest": "053100cb84a50d2ae7f5492f7dd7f25e",
 "version.json": "46f6cd13702753efeffa69ff5a365aac"};
 // The application shell files that are downloaded before a service worker can
 // start.
